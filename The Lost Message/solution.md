@@ -10,7 +10,9 @@ This method of encryption is not safe because it encrypts blocks
 the same if they have the same plaintext. If we look at the file,
 we see that it is encrypting each letter individually, then adding
 15 bytes of padding per AES block. This means that every AES block
-corresponds to 1 letter.
+corresponds to 1 letter. In order to solve this, we have to count
+the frequency of these hashes and try to figure out what letter
+a specific hash corresponds to.
 
 (This is because each letter is 1 byte + 15 bytes of padding gives us 16 byte blocks
 which is what AES encryption needs)

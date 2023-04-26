@@ -161,7 +161,7 @@ assert all([x.isupper() or x in '{_} ' for x in secretMessage])
 This line of code tells us that all letters in the message must be uppercase or must be either a "{", "_", "}", or " " symbol.
 
 Now we are almost done. The description of the challenge told us that the flag format was WSUCDC{} so we know that the "z" in this challenge must actually be a "c", and the "q" must be a "{" and the x must be a "}"
-and going back to the line of code above, the only other symbol we have left is a "_", so the j must be a "_" for this to make sense.
+and going back to the line of code above, the only other symbol we have left is an underscore, so the j must be an underscore for this to make sense.
 
 Now we get the flag:
 

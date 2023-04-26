@@ -12,6 +12,9 @@ we see that it is encrypting each letter individually, then adding
 15 bytes of padding per AES block. This means that every AES block
 corresponds to 1 letter.
 
+(This is because each letter is 1 byte + 15 bytes of padding gives us 16 byte blocks
+which is what AES encryption needs)
+
 ```
 def encrypt(self, message):
         return [self.cipher.encrypt(c.encode() + self.salt) for c in message]

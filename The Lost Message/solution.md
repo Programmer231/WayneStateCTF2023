@@ -153,7 +153,7 @@ After putting this output into quipqiup, we get:
 
 ![Quipquip output](./quipqiup.png)
 
-(I apologise for the flag format in the description of the challenge being confusing. I originally changed both the flag format for the answer to this challenge and the flag you see in the text to WSUCDC{flag} but another admin must've changed it back before the challenge started to {WSUCDC:flag} to make it consistent. Sorry again if you got this wrong because of the flag format not working.)
+(I apologize for the flag format in the description of the challenge being confusing. I originally changed both the flag format for the answer to this challenge and the flag you see in the text to WSUCDC{flag} but another admin must've changed it back before the challenge started to {WSUCDC:flag} to make it consistent. Sorry again if you got this wrong because of the flag format not working.)
 
 We need to use one more hint from the problem to solve this challenge. This piece of code helps us figure out what some of the different letters represent because the output still doesn't quite make sense.
 
